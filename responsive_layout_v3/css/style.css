@@ -7,26 +7,26 @@
 }
 
 h1 {
-    font-family:  'Heebo-Bold', Arial, sans-serif;
+    font-family:'Oswald-Bold',  'Heebo-Bold', Arial, sans-serif;
     font-size: 2.2rem;
     text-align: center;
     color:grey;
 }
 .flex-box h2 {
-    font-family:  'Heebo-Bold',  Arial, sans-serif;
+    font-family:'Heebo-Bold',  Arial, sans-serif;
     font-size: 1.3rem;
     padding: 35px 0 4px 0;
     text-align: center;
 }
 h2 {
-    font-family:  'Heebo-Bold',  Arial, sans-serif;
+    font-family:'Heebo-Bold',  Arial, sans-serif;
     font-size: 1.5rem;
     padding: 35px 0 4px 0;
     text-align: center;
 }
 
 p {
-    font-family: 'Heebo-light',  Arial, sans-serif;
+    font-family:'Oswald-light',  'Heebo-light', Arial, sans-serif;
     font-size: 1.2rem;
     margin: 20px 0 -4px 0;
     text-align: center;
@@ -36,7 +36,7 @@ p {
 
 }
 a {
-    font-family: 'Heebo-light',  Arial, sans-serif;
+    font-family:'Oswald-light',  'Heebo-light', Arial, sans-serif;
     font-size: 1.2rem;
     text-align: center;
     width:80%;
@@ -46,13 +46,13 @@ a {
 
 }
 li {
-    font-family: 'Heebo-light',  Arial, sans-serif;
+    font-family:'Oswald-light',  'Heebo-light', Arial, sans-serif;
     font-size: 1.2rem;
     margin: 7px 0 -4px 0;
 }
 
 .footer-box-2 li {
-    font-family: 'Heebo-light',  Arial, sans-serif;
+    font-family:'Oswald-light',  'Heebo-light', Arial, sans-serif;
     font-size: 1rem;
     margin: 7px 0 -4px 0;
 }
@@ -134,7 +134,7 @@ nav li:hover {
   }
 
 nav a {
-    font-family:  'Heebo-Bold',  Arial, sans-serif;
+    font-family:  'Oswald-light',  'Heebo-light', Arial, sans-serif
     font-size: 1.2rem;
     text-decoration: none;
     color:#4a4a4a;
@@ -176,7 +176,7 @@ footer {
 
 .footer-box-2 li{
     height: 28px;
-    width: 60vw;
+    width: 42vw;
     margin: 5px;
     list-style: none;
 
@@ -205,15 +205,15 @@ nav {
 }
 
 
-@media (min-width: 769px) {
+@media (min-width: 768px) {
     nav ul {
         flex-direction: row; 
-        justify-content: space-around;
     }
 
     
     nav li{
         width: 11vw;
+        margin:0 auto;
         background-color: #fafafa;
     }
     nav {
@@ -248,7 +248,7 @@ nav {
         display: none;
     }
 	.desktop ul {
-    margin-right: 2%;
+    margin-right: 12%;
 }
 
 
@@ -280,7 +280,7 @@ nav {
  }
 }
 
-@media (min-width: 1025px) {
+@media (min-width: 1024px) {
     .flex-box {
         flex-basis:30%;
         margin-top: -7%;
@@ -301,29 +301,18 @@ nav {
 
     nav li {
         padding:15px;
-        margin: 0px;
-
+        margin-left: 2%;
     }
     h1 {
         color:whitesmoke;
+    }
+    nav ul {
+        margin-right: 4.9%;
     }
 
 }
 
 
-/* section {
-
-}  */
-
-
-/* .flex-nav ul {
-    list-style-type: none;
-    display: flex;
-    width: 100%;
-    justify-content: space-evenly;
-
-
-} */
 
 @font-face {
 
@@ -333,8 +322,14 @@ nav {
   @font-face {
     font-family: Heebo-Bold;
     src: url(../Fonts/Heebo-Bold.ttf);
-  
-
   }
 
+  @font-face {
+    font-family: Heebo-Bold;
+    src: url(../Fonts/Oswald-Bold.ttf);
+  }
+  @font-face {
+    font-family: Heebo-Bold;
+    src: url(../Fonts/Oswald-Bold.ttf);
+  }
 
