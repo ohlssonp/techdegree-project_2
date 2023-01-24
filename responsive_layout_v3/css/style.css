@@ -1,0 +1,340 @@
+.wrapper {
+   color:#4a4a4a;
+   max-width: 100%;
+   background-color: #d4d4d4;
+
+
+}
+
+h1 {
+    font-family:  'Heebo-Bold', Arial, sans-serif;
+    font-size: 2.2rem;
+    text-align: center;
+    color:grey;
+}
+.flex-box h2 {
+    font-family:  'Heebo-Bold',  Arial, sans-serif;
+    font-size: 1.3rem;
+    padding: 35px 0 4px 0;
+    text-align: center;
+}
+h2 {
+    font-family:  'Heebo-Bold',  Arial, sans-serif;
+    font-size: 1.5rem;
+    padding: 35px 0 4px 0;
+    text-align: center;
+}
+
+p {
+    font-family: 'Heebo-light',  Arial, sans-serif;
+    font-size: 1.2rem;
+    margin: 20px 0 -4px 0;
+    text-align: center;
+    width:80%;
+    hyphens: auto;
+    margin: auto;
+
+}
+a {
+    font-family: 'Heebo-light',  Arial, sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+    width:80%;
+    hyphens: auto;
+    text-decoration: none;
+    color:rgb(240, 139, 15);
+
+}
+li {
+    font-family: 'Heebo-light',  Arial, sans-serif;
+    font-size: 1.2rem;
+    margin: 7px 0 -4px 0;
+}
+
+.footer-box-2 li {
+    font-family: 'Heebo-light',  Arial, sans-serif;
+    font-size: 1rem;
+    margin: 7px 0 -4px 0;
+}
+
+
+.flex-box-text p {
+    margin: 35px auto;
+    text-align: center;
+    width:90%;
+}
+
+ header {
+    background-color: #fafafa;
+}
+
+.container {
+    flex-direction: column; 
+    display: flex;
+    margin: 20px auto;
+    flex-wrap: nowrap;
+    align-items: start;
+}
+
+.ingress-box {
+    flex-direction: column; 
+    display: flex;
+    margin: 20px auto;
+    flex-wrap: nowrap;
+    padding: 0 0 9% 0;
+
+ }
+section {
+    background-color: #d4d4d4;
+}
+.flex-box {
+    flex-direction: column; 
+    flex: 1;
+    flex-basis: 20%;
+    margin: 1%;
+    order:1;
+    padding: 9% 0 0 0;
+   
+}
+.flex-box:last-child {
+    padding: 9% 0 12% 0;
+}
+.flex-box-text {
+    flex-direction: column; 
+    order:2;
+    flex: 2;
+}
+
+nav ul {
+    display: flex;
+    text-align: center;
+    padding: 0;
+    margin: 0 auto;
+    width:79%;
+    flex-direction: column; 
+
+}
+
+nav li{
+    height: 28px;
+    width: 72vw;
+    padding: 13px 0;
+    margin: 5px;
+    list-style: none;
+    background-color: white;
+}
+
+nav a:hover{
+color:#add3d7;
+}
+
+nav li:hover {
+    color:black;
+    background-color: #919191;
+  }
+
+nav a {
+    font-family:  'Heebo-Bold',  Arial, sans-serif;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color:#4a4a4a;
+}
+
+img {
+    width: 80%;
+    display: block;
+    align-items: center;
+    flex-direction: column; 
+    margin:0 auto;
+}
+
+hr {
+    margin: 2%;
+}
+
+footer {
+ background-color: #fafafa;   
+ padding:5%;
+
+}
+.footer-box-1 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2%;
+
+}
+
+.footer-box-2 ul {
+    display: flex;
+    text-align: center;
+    padding: 0;
+
+}
+
+.footer-box-2 li{
+    height: 28px;
+    width: 60vw;
+    margin: 5px;
+    list-style: none;
+
+}
+.mobile li:first-child{
+    margin-left: 15px;
+    justify-content: start;
+    display: flex;
+}
+.mobile li:last-child{
+    margin-right: 15px;
+    justify-content: end;
+    display: flex;
+}
+
+nav {
+    background-color: rgb(245, 154, 69);
+    padding: 9% 0 13% 0;
+}
+
+.desktop {
+    display: none;
+}
+.mobile {
+    display: block;
+}
+
+
+@media (min-width: 769px) {
+    nav ul {
+        flex-direction: row; 
+        justify-content: space-around;
+    }
+
+    
+    nav li{
+        width: 11vw;
+        background-color: #fafafa;
+    }
+    nav {
+        padding: 2% 0 2% 0;
+    }
+.flex-box {
+    flex-basis:40%;
+    order:2;
+    margin-top: -9%;
+}
+.section h2 {
+    margin-top: -5%;
+}
+.flex-box-text {
+    order:1;
+}
+
+.desktop p {
+    margin: 21px 64px -5px 37px;
+    text-align: left;
+}
+
+.flex-box-text p {
+    margin:1px 35px;
+    text-align: left;
+    width:88%;
+}
+    .desktop {
+        display: flex;
+    }
+    .mobile {
+        display: none;
+    }
+	.desktop ul {
+    margin-right: 2%;
+}
+
+
+.desktop li:first-child {
+    margin-left:49%;
+    flex:1;
+    display: flex;
+    justify-content: start;
+}
+
+.footer-box-2 li{
+    width: 11vw;
+    justify-content: end;
+
+}
+
+.container {
+    flex-direction: row;  
+    padding: 2%;
+    flex-wrap: wrap;
+
+}
+.ingress-box {
+    flex-direction: row; 
+    display: flex;
+    margin: 20px auto;
+    flex-wrap: nowrap;
+    padding: 9% 0 9% 0;
+ }
+}
+
+@media (min-width: 1025px) {
+    .flex-box {
+        flex-basis:30%;
+        margin-top: -7%;
+    
+    }
+    .flex-box-text p {
+        width: 100%;
+    }
+
+    h1 {
+       float:left;
+       margin-left: 5%;
+    }
+    nav ul {
+        justify-content: end;
+        width: 61%;
+    }
+
+    nav li {
+        padding:15px;
+        margin: 0px;
+
+    }
+    h1 {
+        color:whitesmoke;
+    }
+
+}
+
+
+/* section {
+
+}  */
+
+
+/* .flex-nav ul {
+    list-style-type: none;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+
+
+} */
+
+@font-face {
+
+    font-family: Heebo-Light;
+    src: url(../Fonts/Heebo-Light.ttf);
+  }
+  @font-face {
+    font-family: Heebo-Bold;
+    src: url(../Fonts/Heebo-Bold.ttf);
+  
+
+  }
+
+
