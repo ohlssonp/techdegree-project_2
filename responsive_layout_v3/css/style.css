@@ -30,10 +30,7 @@ p {
     font-size: 1.2rem;
     margin: 20px 0 -4px 0;
     text-align: center;
-    width:80%;
     hyphens: auto;
-    margin: auto;
-
 }
 a {
     font-family:'Oswald-light',  'Heebo-light', Arial, sans-serif;
@@ -53,8 +50,7 @@ li {
 
 .footer-box-2 li {
     font-family:'Oswald-light',  'Heebo-light', Arial, sans-serif;
-    font-size: 1rem;
-    margin: 7px 0 -4px 0;
+    font-size: 1.3rem;
 }
 
 
@@ -66,6 +62,14 @@ li {
 
  header {
     background-color: #fafafa;
+
+}
+
+.header-box {
+    flex-direction: column;
+    display: flex;
+    flex-wrap: nowrap;
+
 }
 
 .container {
@@ -99,6 +103,22 @@ section {
 .flex-box:last-child {
     padding: 9% 0 12% 0;
 }
+
+.flex-box-header-1 {
+    flex-direction: column; 
+    flex: 1;
+    flex-basis:7%;
+    flex-grow: 1;
+    order:1;
+    height: 10vh;
+}
+.flex-box-header-2 {
+    flex-direction: column; 
+    flex: 1;
+    flex-grow: 5;
+    order:1;
+    height: 10vh;
+}
 .flex-box-text {
     flex-direction: column; 
     order:2;
@@ -108,7 +128,7 @@ section {
 nav ul {
     display: flex;
     text-align: center;
-    padding: 0;
+    padding: 9px;
     margin: 0 auto;
     width:79%;
     flex-direction: column; 
@@ -134,7 +154,7 @@ nav li:hover {
   }
 
 nav a {
-    font-family:  'Oswald-light',  'Heebo-light', Arial, sans-serif
+    font-family:  'Oswald-light',  'Heebo-light', Arial, sans-serif;
     font-size: 1.2rem;
     text-decoration: none;
     color:#4a4a4a;
@@ -175,9 +195,7 @@ footer {
 }
 
 .footer-box-2 li{
-    height: 28px;
-    width: 42vw;
-    margin: 5px;
+    flex-grow: 1;
     list-style: none;
 
 }
@@ -231,10 +249,6 @@ nav {
     order:1;
 }
 
-.desktop p {
-    margin: 21px 64px -5px 37px;
-    text-align: left;
-}
 
 .flex-box-text p {
     margin:1px 35px;
@@ -247,23 +261,43 @@ nav {
     .mobile {
         display: none;
     }
-	.desktop ul {
-    margin-right: 12%;
-}
 
-
-.desktop li:first-child {
-    margin-left:49%;
+.desktop li {
     flex:1;
     display: flex;
     justify-content: start;
 }
 
 .footer-box-2 li{
-    width: 11vw;
     justify-content: end;
 
 }
+
+.box-desktop-1 {
+    display: flex;
+    flex:1;
+    justify-content: start;
+    flex-grow: 1;
+}
+.box-desktop-2 {
+    display: flex;
+    flex:1;
+    justify-content: start;
+    flex-grow: 2;
+}
+
+.box-desktop-2 ul{
+    display: flex;
+    flex-direction: row; 
+    flex:1;
+    justify-content: start;
+    flex-grow: 5;
+}
+.footer-desktop-box {
+ display: flex;
+flex-direction: row; 
+}
+
 
 .container {
     flex-direction: row;  
@@ -291,7 +325,6 @@ nav {
     }
 
     h1 {
-       float:left;
        margin-left: 5%;
     }
     nav ul {
@@ -307,8 +340,25 @@ nav {
         color:whitesmoke;
     }
     nav ul {
-        margin-right: 4.9%;
+        margin-right: 6.4%;
     }
+    
+nav {
+     background: none;
+    padding: 1.8% 0 2% 0;
+}
+
+    .flex-box-header-1 {
+    background-color: rgb(245, 154, 69);
+    height: 100%;
+    margin-top: 0%;
+}
+
+.header-box {
+    flex-direction: row;
+    background-color: rgb(245, 154, 69);
+
+}
 
 }
 
