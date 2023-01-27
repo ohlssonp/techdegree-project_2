@@ -50,8 +50,20 @@ li {
 
 .footer-box-2 li {
     font-family:'Oswald-light',  'Heebo-light', Arial, sans-serif;
-    font-size: 1.3rem;
+    font-size: 1rem;
 }
+
+.footer-box-2 a{
+    font-family:'Oswald-light',  'Heebo-light', Arial, sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    hyphens: auto;
+    flex-grow: 1;
+    list-style: none;
+}
+
+
+
 
 
 .flex-box-text p {
